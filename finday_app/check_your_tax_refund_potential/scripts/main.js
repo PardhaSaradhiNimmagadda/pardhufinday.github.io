@@ -39,8 +39,7 @@ $(document).ready(function () {
             let value = $(this).val();
             let answer = questionAnswers[value];
             
-            $('.refund-footer .check-box-message span').text(answer.answer);
-            $('.refund-footer .check-box-message').css('color', answer.color);
+            $('.refund-footer .check-box-message span').text(answer.answer).css('color', answer.color);
             $('.refund-footer .check-box-message').removeClass('js-hide');
             confetti.start(1500, 200, 500);
         }
