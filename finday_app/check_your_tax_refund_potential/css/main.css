@@ -1,0 +1,156 @@
+body {
+  background: #fff;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+.js-hide {
+  visibility: hidden;
+}
+
+.check-your-refund {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: self-start;
+  padding: 50px;
+}
+
+@media only screen and (max-width: 720px) {
+  .check-your-refund {
+    padding: 0;
+  }
+}
+
+.check-your-refund h1 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
+
+.check-your-refund .input-box-holder label {
+  font-size: 16px;
+}
+
+.check-your-refund .refund-footer {
+  padding: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.check-your-refund .refund-footer .check-box-message {
+  min-height: 50px;
+}
+
+.check-your-refund .refund-footer .check-box-message span {
+  font-size: 18px;
+  color: mediumslateblue;
+}
+
+.check-your-refund .refund-footer .try-it-free button {
+  margin: 0;
+  padding-bottom: 30px;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 27px;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #5e6ffc;
+  border: 0;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Caros Soft',Arial,Helvetica,sans-serif;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  font-weight: 700;
+  font-size: 18px;
+  outline: 0;
+  position: relative;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  text-transform: capitalize;
+}
+
+.check-your-refund .refund-footer .try-it-free button:hover {
+  background-color: #121633;
+}
+
+/* Checkbox styles */
+input[type=checkbox] + label {
+  display: block;
+  margin: 0.2em;
+  cursor: pointer;
+  padding: 0.2em;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox] + label:before {
+  content: "\2714";
+  border: 0.1em solid #000;
+  border-radius: 0.2em;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  padding-left: 0.2em;
+  padding-bottom: 0.3em;
+  margin-right: 0.2em;
+  vertical-align: text-bottom;
+  color: transparent;
+  -webkit-transition: .2s;
+  transition: .2s;
+  margin-right: 0.5em;
+}
+
+input[type=checkbox] + label:active:before {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+input[type=checkbox]:checked + label:before {
+  background-color: MediumSeaGreen;
+  border-color: MediumSeaGreen;
+  color: #fff;
+}
+
+input[type=checkbox]:disabled + label:before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  border-color: #aaa;
+}
+
+input[type=checkbox]:checked:disabled + label:before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  background-color: #bfb;
+  border-color: #bfb;
+}
+/*# sourceMappingURL=main.css.map */
