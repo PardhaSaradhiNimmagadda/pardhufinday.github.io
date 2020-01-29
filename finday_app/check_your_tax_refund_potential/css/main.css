@@ -1,8 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700,700i&display=swap");
+@import url("https://use.typekit.net/tqk6sst.css");
+font-face {
+  font-family: 'Caros Soft';
+  src: url("https://cdn2.hubspot.net/hubfs/6434555/finday_fonts/caros_soft-webfont.woff2") format("woff2"), url("https://cdn2.hubspot.net/hubfs/6434555/finday_fonts/caros_soft-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Caros Soft';
+  src: url("https://cdn2.hubspot.net/hubfs/6434555/finday_fonts/caros_soft_bold-webfont.woff2") format("woff2"), url("https://cdn2.hubspot.net/hubfs/6434555/finday_fonts/caros_soft_bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Caros Soft';
+  src: url("https://cdn2.hubspot.net/hubfs/6434555/finday_fonts/caros_soft_medium-webfont.woff2") format("woff2"), url("https://cdn2.hubspot.net/hubfs/6434555/finday_fonts/caros_soft_medium-webfont.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Caros Soft';
+  src: url("https://cdn2.hubspot.net/hubfs/6434555/finday_fonts/caros_soft_black-webfont.woff2") format("woff2"), url("https://cdn2.hubspot.net/hubfs/6434555/finday_fonts/caros_soft_black-webfont.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
 body {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  padding: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+  color: #121633;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Caros Soft';
   background: #fff;
 }
 
-.container {
+#check-your-tax-refund-potential {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
