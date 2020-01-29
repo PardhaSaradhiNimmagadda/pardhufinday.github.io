@@ -68,10 +68,10 @@
             }
         ];
 
-        loadCoponentHTML(questionAnswers, tryItForFreeLink);
+        loadComponentHTML(questionAnswers, tryItForFreeLink);
     }
 
-    function loadCoponentHTML(questionAnswers, tryItForFreeLink) {
+    function loadComponentHTML(questionAnswers, tryItForFreeLink) {
         let buildHTML = '<div class="check-your-refund">';
         buildHTML += '<h1>Check your tax refund potential</h1>';
         questionAnswers.forEach(item => {
